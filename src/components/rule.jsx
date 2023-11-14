@@ -18,21 +18,17 @@ export default function Rule() {
                     component="h1"
                     variant="h2"
                     align="center"
-                    color="white"
+                    color="black"
                     gutterBottom
                 >
                     Game Rule
                 </Typography>
-                <Typography variant="h5" align="center" color="white" component="p">
-                    The player has to guess the Wordle in six attempts or less.<br />
-
-                    Every word, which is entered should be in the word list.<br />
-
-                    If the letter is correct, the color would turn green.<br />
-
-                    If the letter is correct but placed wrong then it would turn yellow.<br />
-
-                    If the letter is not in in the word, the color would turn gray.<br />
+                <Typography variant="h5" align="left" color="text.primary" component="p">
+                    <p>The player has to guess the Wordle in six attempts or less.</p>
+                    <p>Every word, which is entered should be in the word list.</p>
+                    <p>If the letter is correct, the color would turn green.</p>
+                    <p>If the letter is correct but placed wrong then it would turn yellow.</p>
+                    <p>If the letter is not in the word, the color would turn gray.</p>
                 </Typography>
             </Container>
 
